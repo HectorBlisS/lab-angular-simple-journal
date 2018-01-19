@@ -1,0 +1,13 @@
+<p>
+    entry-list works!
+</p>
+
+<button (click)="getData()">
+  Get Entries
+</button>
+
+<ul>
+  <li *ngFor="let entry of entries">
+    <h5>{{entry.title}} - {{entry.date}}</h5>
+  </li>
+</ul>

@@ -4,10 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { EntryListComponent } from './entry-list/entry-list.component';
+import {SingleEntryComponent} from './single-entry/single-entry.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EntryListComponent,
+    SingleEntryComponent
   ],
   imports: [
     BrowserModule,
